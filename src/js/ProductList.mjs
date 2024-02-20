@@ -28,11 +28,7 @@ export default class ProductList {
           jsonKey = 'playasmexico';
       } else if (filename === 'pueblosmagicos.html') {
           jsonKey = 'pueblosmagicos';
-      } else {
-          // Handle unknown page types
-          console.log('Unknown page type');
-          return;
-      }
+      } 
       const json = await this.dataSource.getData(jsonKey);
       const locations = json[jsonKey];
       this.renderList(locations);
