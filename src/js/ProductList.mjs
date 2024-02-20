@@ -20,15 +20,17 @@ export default class ProductList {
     // Populate list of products
     async init() {
       var path = window.location.pathname;
-      console.log(path);
+      var parts = path.split('/');
+      var filename = parts[parts.length - 1];
+
       let jsonKey;
-      if (path === '/pages/beachesmexico.html') {
+      if (filename === 'beachesmexico.html') {
           jsonKey = 'playasmexico';
-      } else if (path === '/pages/pueblosmagicos.html') {
+      } else if (filename === 'pueblosmagicos.html') {
           jsonKey = 'pueblosmagicos';
       } else {
           // Handle unknown page types
-          console.error('Unknown page type');
+          console.log('Unknown page type');
           return;
       }
       const json = await this.dataSource.getData(jsonKey);
