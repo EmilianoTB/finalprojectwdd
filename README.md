@@ -1,31 +1,21 @@
-# sleepoutside
+# Final Project
 
 ## Description
 
-Use this as a starting point to complete the WDD 330 team activity: the SleepOutside web application. It scaffolds out a simple web app with Vite support to bundle up our assets.
+The project's goal is to create a weather webpage specifically for beach goers, with accurate weather
+information and travel advisory details for various beach destinations. The goal is to help travelers plan
+their beach trips effectively by providing comprehensive weather forecasts and relevant travel
+advisories.
 
-## Prerequisites
+## Overview
 
-- You must have Node installed. visit https://byui-cit.github.io/advcss/lesson01/l01-software.html and skip to the Node section for instructions
+Travelers frequently have difficulty locating reliable weather information tailored specifically to beach
+destinations. While general weather forecasts are available, they may not be specific or applicable to
+beach conditions. Travelers may also need additional information, such as travel advisories, to make
+informed travel decisions.
 
-## Setup
+## Audience
 
-- `npm install`
-- `npm run start` starts up a local server and updates on any JS or CSS/SCSS changes.
-
-## Other commands
-
-- `npm run build` to build final files when you are ready to turn in.
-- `npm run lint` to run ESLint against your code to find errors.
-- `npm run format` to run Prettier to automatically format your code.
-
-## Previewing Netlify
-
-1. Run `npm run build` to build the files the site will see.
-2. Run `npm run preview` to start the preview.
-3. Open the localhost site in your browser to preview the changes.
-
-
-https://meek-valkyrie-be0f27.netlify.app/
-# finalproject
-# finalproject
+This project's target audience consists of beach goers looking for accurate weather forecasts and travel
+advisories for their destinations. This could range from individuals planning a relaxing beach vacation
+to professionals organizing beach events or excursions.
