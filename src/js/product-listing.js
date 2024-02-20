@@ -8,6 +8,14 @@ const element = document.querySelector(".product-list");
 const productList = new ProductList(category, dataSource, element);
 productList.init();
 
+
+//externalServices.getData().then(data => {
+//  console.log(data);
+//}).catch(error => {
+//  console.error(error);
+//});
+
+
 // Here we load the header and the footer
 loadHeaderFooter(
   "header",

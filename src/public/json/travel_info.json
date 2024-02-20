@@ -1,0 +1,480 @@
+{ 
+"pueblosmagicos": [
+    {
+        "name": "Tulum, Quintana Roo",
+        "location": "Riviera Maya",
+        "description": "Ancient walled Mayan city facing the Caribbean Sea, with a white sand beach and turquoise waters.",
+        "activities": ["Exploring Ruins", "Swimming", "Snorkeling", "Shopping", "Dining"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.tulum.com/"
+    },
+    {
+        "name": "Real de Catorce, San Luis Potosi",
+        "location": "Sierra de Catorce",
+        "description": "Ghost mining town surrounded by desert mountains, known for its colonial architecture and silver mines.",
+        "activities": ["Visiting Mines", "Exploring Town", "Shopping", "Hiking", "Cycling"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.realcatorce.com/"
+    },
+    {
+        "name": "Mazamitla, Jalisco",
+        "location": "Sierra de Mazamitla",
+        "description": "Charming town with colonial-style architecture, surrounded by pine and oak forests.",
+        "activities": ["Hiking", "Ziplining", "Horseback Riding", "Shopping", "Dining"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.mazamitla.com/"
+    },
+    {
+        "name": "Valle de Bravo, State of Mexico",
+        "location": "Valle de Bravo",
+        "description": "Picturesque town on the shore of a lake, famous for its tile-roofed houses and tranquil atmosphere.",
+        "activities": ["Sailing", "Paragliding", "Visiting Churches", "Shopping", "Dining"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.valledebravo.com/"
+    },
+    {
+        "name": "Bacalar, Quintana Roo",
+        "location": "Laguna de Bacalar",
+        "description": "Town next to a lagoon of seven colors, with 18th-century military forts and a relaxed atmosphere.",
+        "activities": ["Swimming", "Kayaking", "Visiting Forts", "Shopping", "Dining"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.bacalar.com/"
+    },
+    {
+        "name": "Pátzcuaro, Michoacán",
+        "location": "Pátzcuaro",
+        "description": "Charming colonial town around a main square, famous for its crafts and traditions.",
+        "activities": ["Visiting Plazas", "Craft Shopping", "Visiting Churches", "Dining", "Visiting Markets"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.patzcuaro.com/"
+    },
+    {
+        "name": "Tequila, Jalisco",
+        "location": "Valle de Tequila",
+        "description": "Famous town for being the birthplace of tequila, with historic distilleries and agave landscapes.",
+        "activities": ["Visiting Distilleries", "Agave Tour", "Tequila Shopping", "Dining", "Visiting Monuments"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.tequila.com/"
+    },
+    {
+        "name": "San Cristóbal de las Casas, Chiapas",
+        "location": "San Cristóbal de las Casas",
+        "description": "Colonial town with cobblestone streets and historic buildings, surrounded by mountains and indigenous culture.",
+        "activities": ["Visiting Cathedrals", "Craft Shopping", "Visiting Markets", "Dining", "Visiting Museums"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.sancristobal.com/"
+    },
+    {
+        "name": "Huasca de Ocampo, Hidalgo",
+        "location": "Huasca de Ocampo",
+        "description": "Magical town with colonial architecture, silver mines, and basaltic prism forests.",
+        "activities": ["Visiting Basaltic Prisms", "Visiting Mines", "Hiking", "Dining", "Visiting Haciendas"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.huascadeocampo.com/"
+    },
+    {
+        "name": "Tepoztlán, Morelos",
+        "location": "Tepoztlán",
+        "description": "Magical town known for its pyramid on top of a mountain and its spiritual atmosphere.",
+        "activities": ["Visiting Pyramid", "Hiking", "Craft Shopping", "Dining", "Visiting Temples"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.tepoztlan.com/"
+    },
+    {
+        "name": "Creel, Chihuahua",
+        "location": "Sierra Tarahumara",
+        "description": "Alpine town in the mountains of the Sierra Tarahumara, starting point for exploring Copper Canyon.",
+        "activities": ["Visiting Copper Canyon", "Chepe Train", "Hiking", "Dining", "Visiting Waterfalls"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.creel.com/"
+    },
+    {
+        "name": "Todos Santos, Baja California Sur",
+        "location": "Todos Santos",
+        "description": "Charming town on the Pacific coast, famous for its art and surf beaches.",
+        "activities": ["Surfing", "Art", "Shopping", "Dining", "Visiting Galleries"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.todossantos.com/"
+    },
+    {
+        "name": "Malinalco, State of Mexico",
+        "location": "Malinalco",
+        "description": "Historic town with a pyramid on top of a mountain, ideal for exploring history and nature.",
+        "activities": ["Visiting Pyramid", "Hiking", "Shopping", "Dining", "Visiting Temples"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.malinalco.com/"
+    },
+    {
+        "name": "Cuetzalan, Puebla",
+        "location": "Cuetzalan",
+        "description": "Magical town in the mountains of the Sierra Norte de Puebla, known for its indigenous culture and coffee.",
+        "activities": ["Visiting Waterfalls", "Indigenous Culture", "Shopping", "Dining", "Visiting Markets"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.cuetzalan.com/"
+    },
+    {
+        "name": "Papantla, Veracruz",
+        "location": "Papantla",
+        "description": "Town with Totonac roots, famous for its flyers and colonial architecture.",
+        "activities": ["Seeing Flyers", "Visiting Monuments", "Shopping", "Dining", "Visiting Markets"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.papantla.com/"
+    },
+    {
+        "name": "Bernal, Querétaro",
+        "location": "Peña de Bernal",
+        "description": "Town at the foot of the third largest monolith in the world, ideal for outdoor activities and gastronomy.",
+        "activities": ["Hiking", "Climbing", "Shopping", "Dining", "Visiting Markets"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.bernaldemonterrey.com/"
+    },
+    {
+        "name": "Tlayacapan, Morelos",
+        "location": "Tlayacapan",
+        "description": "Charming town in the Tepoztlán mountains, famous for its architecture and gastronomy.",
+        "activities": ["Visiting Monastery", "Hiking", "Shopping", "Dining", "Visiting Markets"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.tlayacapan.com/"
+    },
+    {
+        "name": "Cosalá, Sinaloa",
+        "location": "Cosalá",
+        "description": "Magical town with colonial architecture, silver mines, and waterfalls in the surroundings.",
+        "activities": ["Visiting Mines", "Hiking", "Shopping", "Dining", "Visiting Waterfalls"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.cosala.com/"
+    },
+    {
+        "name": "Amealco, Querétaro",
+        "location": "Amealco",
+        "description": "Charming town in the Sierra Gorda de Querétaro, famous for its landscapes and crafts.",
+        "activities": ["Hiking", "Craft Shopping", "Dining", "Visiting Monuments", "Visiting Markets"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.amealco.com/"
+    },
+    {
+        "name": "Jerez de García Salinas, Zacatecas",
+        "location": "Jerez de García Salinas",
+        "description": "Charming town on the Zacatecas wine route, famous for its architecture and wine culture.",
+        "activities": ["Visiting Vineyards", "Wine Culture", "Shopping", "Dining", "Visiting Monuments"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.jerez.com/"
+    },
+    {
+        "name": "Tapalpa, Jalisco",
+        "location": "Tapalpa",
+        "description": "Magical town in the mountains of Jalisco, known for its adobe architecture and natural landscapes.",
+        "activities": ["Hiking", "Shopping", "Dining", "Visiting Monuments", "Visiting Markets"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.tapalpa.com/"
+    },
+    {
+        "name": "Coatepec, Veracruz",
+        "location": "Coatepec",
+        "description": "Magical town in the mountains of Veracruz, famous for its coffee and colonial architecture.",
+        "activities": ["Visiting Coffee Plantations", "Coffee", "Shopping", "Dining", "Visiting Monuments"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.coatepec.com/"
+    },
+    {
+        "name": "Parras de la Fuente, Coahuila",
+        "location": "Parras de la Fuente",
+        "description": "Charming town in the Coahuila desert, famous for its wines and history.",
+        "activities": ["Visiting Vineyards", "Wine Tasting", "Shopping", "Dining", "Visiting Monuments"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.parras.com/"
+    },
+    {
+        "name": "San Sebastián del Oeste, Jalisco",
+        "location": "San Sebastián del Oeste",
+        "description": "Magical town in the mountains of Jalisco, famous for its colonial architecture and silver mines.",
+        "activities": ["Visiting Mines", "Hiking", "Shopping", "Dining", "Visiting Monuments"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.sansebastiandeloeste.com/"
+    },
+    {
+        "name": "Tula, Hidalgo",
+        "location": "Tula",
+        "description": "Charming town in the state of Hidalgo, famous for its pyramids and pre-Hispanic history.",
+        "activities": ["Visiting Pyramids", "Pre-Hispanic History", "Shopping", "Dining", "Visiting Monuments"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.tula.com/"
+    },
+    {
+        "name": "Alamos, Sonora",
+        "location": "Alamos",
+        "description": "Magical town in the Sierra de Sonora, famous for its colonial architecture and tranquil atmosphere.",
+        "activities": ["Visiting Plazas", "Colonial Culture", "Shopping", "Dining", "Visiting Monuments"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.alamos.com/"
+    },
+    {
+        "name": "Izamal, Yucatán",
+        "location": "Izamal",
+        "description": "Magical town in the state of Yucatán, famous for its yellow-painted buildings and Maya history.",
+        "activities": ["Visiting Pyramids", "Maya History", "Shopping", "Dining", "Visiting Monuments"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.izamal.com/"
+    }
+], "playasmexico": [
+    {
+        "name": "Playa Cosala, Jalisco",
+        "location": "Puerto Vallarta, Jalisco",
+        "description": "Hidden gem near Puerto Vallarta, crystal-clear waters, lush vegetation.",
+        "activities": ["Swimming", "Snorkeling", "Hiking", "Birdwatching", "Kayaking"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.puertovallarta.com/playa-cosala/"
+    },
+    {
+        "name": "Playa del Carmen, Quintana Roo",
+        "location": "Riviera Maya, Quintana Roo",
+        "description": "Popular beach destination with white sand and turquoise waters.",
+        "activities": ["Swimming", "Snorkeling", "Diving", "Shopping", "Dining"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.playadelcarmen.com/"
+    },
+    {
+        "name": "Tulum Beach, Quintana Roo",
+        "location": "Tulum, Quintana Roo",
+        "description": "Stunning beach with Mayan ruins overlooking the Caribbean Sea.",
+        "activities": ["Swimming", "Sunbathing", "Exploring Ruins", "Yoga", "Eco-tours"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.tulum.com/"
+    },
+    {
+        "name": "Punta de Mita, Nayarit",
+        "location": "Punta de Mita, Nayarit",
+        "description": "Luxury resort area known for its beautiful beaches and upscale amenities.",
+        "activities": ["Golfing", "Surfing", "Fishing", "Whale Watching", "Fine Dining"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.puntademita.com/"
+    },
+    {
+        "name": "Zipolite, Oaxaca",
+        "location": "Puerto Escondido, Oaxaca",
+        "description": "Famous for being one of Mexico's few nude beaches, relaxed atmosphere.",
+        "activities": ["Nude Sunbathing", "Swimming", "Yoga", "Beachfront Restaurants", "Surfing"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.zipolite.com/"
+    },
+    {
+        "name": "Mazatlan Beach, Sinaloa",
+        "location": "Mazatlan, Sinaloa",
+        "description": "Golden sandy beaches, lively atmosphere, rich in history and culture.",
+        "activities": ["Fishing", "Shopping", "Dining", "Beach Volleyball", "Parasailing"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.mazatlan.com/"
+    },
+    {
+        "name": "Puerto Ángel, Oaxaca",
+        "location": "Puerto Ángel, Oaxaca",
+        "description": "Quiet fishing village, beautiful beaches, perfect for relaxation.",
+        "activities": ["Beachcombing", "Fishing", "Boat Tours", "Whale Watching", "Snorkeling"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.puertoangel.com/"
+    },
+    {
+        "name": "Zihuatanejo Beach, Guerrero",
+        "location": "Zihuatanejo, Guerrero",
+        "description": "Charming fishing village, beautiful beaches, laid-back atmosphere.",
+        "activities": ["Shopping", "Dining", "Fishing", "Snorkeling", "Kayaking"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.zihuatanejo.com/"
+    },
+    {
+        "name": "Balandra Beach, Baja California Sur",
+        "location": "La Paz, Baja California Sur",
+        "description": "Pristine white sand beach, clear turquoise waters, great for families.",
+        "activities": ["Swimming", "Kayaking", "Paddleboarding", "Picnicking", "Sunbathing"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.lapaz.com/balandra-beach/"
+    },
+    {
+        "name": "Chacala Beach, Nayarit",
+        "location": "Chacala, Nayarit",
+        "description": "Small fishing village, calm waters, ideal for swimming and relaxing.",
+        "activities": ["Swimming", "Snorkeling", "Beachfront Dining", "Kayaking", "Boat Tours"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.chacala.com/"
+    },
+    {
+        "name": "Sayulita Beach, Nayarit",
+        "location": "Sayulita, Nayarit",
+        "description": "Surfing hotspot, bohemian vibe, colorful shops and cafes.",
+        "activities": ["Surfing", "Shopping", "Dining", "Yoga", "Horseback Riding"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.sayulita.com/"
+    },
+    {
+        "name": "Puerto Escondido, Oaxaca",
+        "location": "Puerto Escondido, Oaxaca",
+        "description": "World-class surfing destination, beautiful beaches, lively nightlife.",
+        "activities": ["Surfing", "Swimming", "Nightlife", "Fishing", "Boat Tours"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.puertoescondido.com/"
+    },
+    {
+        "name": "Playa Norte, Isla Mujeres",
+        "location": "Isla Mujeres, Quintana Roo",
+        "description": "Crystal-clear waters, white sandy beaches, great for swimming and sunbathing.",
+        "activities": ["Swimming", "Sunbathing", "Snorkeling", "Beachfront Dining", "Shopping"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.islamujeres.com/playa-norte/"
+    },
+    {
+        "name": "Cabo Pulmo, Baja California Sur",
+        "location": "Cabo Pulmo, Baja California Sur",
+        "description": "National Marine Park, excellent diving and snorkeling spot, rich marine life.",
+        "activities": ["Diving", "Snorkeling", "Beach Camping", "Hiking", "Birdwatching"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.cabopulmo.com/"
+    },
+    {
+        "name": "Cozumel Beach, Quintana Roo",
+        "location": "Cozumel, Quintana Roo",
+        "description": "Island paradise, world-class diving and snorkeling, vibrant coral reefs.",
+        "activities": ["Diving", "Snorkeling", "Beachfront Dining", "Shopping", "Beach Volleyball"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.cozumel.com/"
+    },
+    {
+        "name": "Bucerias Beach, Nayarit",
+        "location": "Bucerias, Nayarit",
+        "description": "Charming town, beautiful beaches, relaxed atmosphere.",
+        "activities": ["Swimming", "Sunbathing", "Shopping", "Dining", "Beachfront Yoga"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.bucerias.com/"
+    },
+    {
+        "name": "Acapulco Beach, Guerrero",
+        "location": "Acapulco, Guerrero",
+        "description": "Historic resort town, beautiful beaches, vibrant nightlife.",
+        "activities": ["Swimming", "Sunbathing", "Diving", "Snorkeling", "Nightlife"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.acapulco.com/"
+    },
+    {
+        "name": "Ixtapa Beach, Guerrero",
+        "location": "Ixtapa, Guerrero",
+        "description": "Modern resort area, beautiful beaches, wide range of water sports.",
+        "activities": ["Surfing", "Parasailing", "Jet Skiing", "Fishing", "Beach Volleyball"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.ixtapa.com/"
+    },
+    {
+        "name": "Holbox Beach, Quintana Roo",
+        "location": "Isla Holbox, Quintana Roo",
+        "description": "Island paradise, laid-back atmosphere, great for nature lovers.",
+        "activities": ["Swimming", "Sunbathing", "Kiteboarding", "Whale Shark Tours", "Birdwatching"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.islaholbox.com/"
+    },
+    {
+        "name": "Punta Mita, Nayarit",
+        "location": "Punta Mita, Nayarit",
+        "description": "Exclusive resort area, stunning beaches, luxury accommodations.",
+        "activities": ["Golfing", "Surfing", "Whale Watching", "Spa Treatments", "Fine Dining"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.puntamita.com/"
+    },
+    {
+        "name": "Puerto Vallarta Beach, Jalisco",
+        "location": "Puerto Vallarta, Jalisco",
+        "description": "Vibrant beach town, beautiful beaches, lively nightlife.",
+        "activities": ["Swimming", "Sunbathing", "Dining", "Shopping", "Nightlife"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.puertovallarta.com/"
+    },
+    {
+        "name": "Cancun Beach, Quintana Roo",
+        "location": "Cancun, Quintana Roo",
+        "description": "Famous for its white sandy beaches and turquoise waters, bustling nightlife.",
+        "activities": ["Swimming", "Sunbathing", "Shopping", "Dining", "Nightlife"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.cancun.com/"
+    },
+    {
+        "name": "Los Cabos Beach, Baja California Sur",
+        "location": "Los Cabos, Baja California Sur",
+        "description": "Luxury resort area, stunning beaches, world-class golfing.",
+        "activities": ["Golfing", "Fishing", "Snorkeling", "Scuba Diving", "Fine Dining"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.visitloscabos.travel/"
+    },
+    {
+        "name": "San Pancho Beach, Nayarit",
+        "location": "San Francisco, Nayarit",
+        "description": "Charming town, beautiful beaches, laid-back atmosphere.",
+        "activities": ["Swimming", "Sunbathing", "Surfing", "Yoga", "Beachfront Dining"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.sanpancho.com/"
+    },
+    {
+        "name": "Playa del Amor, Jalisco",
+        "location": "Puerto Vallarta, Jalisco",
+        "description": "Hidden beach accessible only by boat, stunning natural beauty.",
+        "activities": ["Snorkeling", "Sunbathing", "Beachcombing", "Boat Tours", "Picnicking"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.puertovallarta.com/playa-del-amor/"
+    },
+    {
+        "name": "Troncones Beach, Guerrero",
+        "location": "Troncones, Guerrero",
+        "description": "Secluded beach, perfect for relaxation and water sports.",
+        "activities": ["Surfing", "Swimming", "Yoga", "Horseback Riding", "Beachfront Dining"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.troncones.com/"
+    },
+    {
+        "name": "Tulum Ruins Beach, Quintana Roo",
+        "location": "Tulum, Quintana Roo",
+        "description": "Beautiful beach near the ancient Mayan ruins of Tulum, stunning views.",
+        "activities": ["Swimming", "Sunbathing", "Exploring Ruins", "Snorkeling", "Beachfront Dining"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.tulum.com/tulum-ruins-beach/"
+    },
+    {
+        "name": "Manzanillo Beach, Colima",
+        "location": "Manzanillo, Colima",
+        "description": "Beautiful beaches, perfect for water sports and relaxation.",
+        "activities": ["Swimming", "Surfing", "Fishing", "Snorkeling", "Beachfront Dining"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.manzanillo.com/"
+    },
+    {
+        "name": "Barra de Navidad Beach, Jalisco",
+        "location": "Barra de Navidad, Jalisco",
+        "description": "Quaint beach town, beautiful beaches, relaxed atmosphere.",
+        "activities": ["Swimming", "Sunbathing", "Fishing", "Boat Tours", "Beachfront Dining"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.barradenavidad.com/"
+    },
+    {
+        "name": "Punta Zicatela, Oaxaca",
+        "location": "Puerto Escondido, Oaxaca",
+        "description": "World-famous surfing beach, powerful waves, international surfing competitions.",
+        "activities": ["Surfing", "Swimming", "Beachfront Dining", "Shopping", "Nightlife"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.puertoescondido.com/punta-zicatela/"
+    },
+    {
+        "name": "Mismaloya Beach, Jalisco",
+        "location": "Puerto Vallarta, Jalisco",
+        "description": "Scenic beach, famous for its appearance in the movie 'The Night of the Iguana'.",
+        "activities": ["Swimming", "Snorkeling", "Diving", "Kayaking", "Beachfront Dining"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.puertovallarta.com/mismaloya-beach/"
+    },
+    {
+        "name": "Majahuitas Beach, Jalisco",
+        "location": "Puerto Vallarta, Jalisco",
+        "description": "Secluded beach, only accessible by boat, perfect for snorkeling and relaxation.",
+        "activities": ["Snorkeling", "Swimming", "Sunbathing", "Kayaking", "Beachcombing"],
+        "image_url": "https://placeholder.com/300x200",
+        "website_url": "https://www.puertovallarta.com/majahuitas-beach/"
+    }
+]
+
+    
+
+}
