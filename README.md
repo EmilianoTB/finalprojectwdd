@@ -19,3 +19,4 @@ informed travel decisions.
 This project's target audience consists of beach goers looking for accurate weather forecasts and travel
 advisories for their destinations. This could range from individuals planning a relaxing beach vacation
 to professionals organizing beach events or excursions.
+# finalprojectwdd
