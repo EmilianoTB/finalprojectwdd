@@ -20,14 +20,14 @@ export default class PlacesList {
     // Populate list of locations
     async init() {
       var path = window.location.pathname;
-      var parts = path.split('/');
+      var parts = path.split("/");
       var filename = parts[parts.length - 1];
 
       let jsonKey;
-      if (filename === 'beachesmexico.html') {
-          jsonKey = 'playasmexico';
-      } else if (filename === 'pueblosmagicos.html') {
-          jsonKey = 'pueblosmagicos';
+      if (filename === "beachesmexico.html") {
+          jsonKey = "playasmexico";
+      } else if (filename === "pueblosmagicos.html") {
+          jsonKey = "pueblosmagicos";
       } else if (filename == "search.html"){
         jsonKey;
       }
@@ -60,7 +60,7 @@ function productCardTemplate(locations) {
         <a class="destination-card__website" href="${location.website_url}">Website</a>
       </a>
     </li>
-  `).join('');
+  `).join("");
 }
 
 

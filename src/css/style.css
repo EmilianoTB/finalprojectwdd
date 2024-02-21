@@ -21,7 +21,7 @@ body {
   font-family: var(--font-body);
   font-size: var(--font-base);
   color: var(--dark-grey);
-  background-color: #F5E7D0;
+  background-color: #f5e7d0;
 }
 
 header {
@@ -29,8 +29,8 @@ header {
   justify-content: center;
 }
 
-.header_position{
-  text-align: center; 
+.header_position {
+  text-align: center;
   justify-content: center;
 }
 
@@ -56,10 +56,8 @@ header {
   padding-bottom: 220px;
 }
 
-
 .logo--square {
- 
-  background-color: rgba(31, 137, 206, .9); 
+  background-color: rgba(31, 137, 206, 0.9);
   border-radius: 20px; /* Adjust the value to change the roundness of the corners */
 
   font-size: var(--small-font);
@@ -72,7 +70,7 @@ header {
   align-items: center;
   box-shadow: 1px 1px 4px var(--light-grey);
   line-height: 1;
-  
+
   left: 0; /* Position from the left edge */
   right: 0; /* Position from the right edge */
   margin-left: auto; /* Center horizontally */
@@ -122,18 +120,15 @@ button:hover {
   background-color: #0056b3;
 }
 
-.img_div{
-  text-align: center; 
+.img_div {
+  text-align: center;
 }
 
-.pueblos_magicos_1, .playas_mexico_1{
+.pueblos_magicos_1,
+.playas_mexico_1 {
   width: 250px;
   height: 250px;
 }
-
-
-
-
 
 .logo--square img {
   width: 90px;
@@ -141,7 +136,7 @@ button:hover {
   margin-top: 2em;
 }
 .logo--square > div {
-  margin-top: .2em;
+  margin-top: 0.2em;
 }
 /* utility classes */
 .highlight {
@@ -171,21 +166,19 @@ button:hover {
   transform: scale(1.1);
 }
 
-
-.pueblos_magicos{
+.pueblos_magicos {
   width: 100%;
   height: 200px;
 }
 
-.playas_mexico{
+.playas_mexico {
   width: 100%;
   height: 230px;
 }
 
-.banner_img{
+.banner_img {
   width: 100%;
 }
-
 
 button {
   padding: 0.5em 2em;
@@ -349,7 +342,7 @@ fieldset {
 }
 
 button {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   padding: 15px;
   border: none;
@@ -360,7 +353,6 @@ button {
 button:hover {
   background-color: #45a049;
 }
-
 
 /* Style for the card container */
 .destination-card {
@@ -479,7 +471,7 @@ button:hover {
   cursor: pointer;
 }
 
-.space_div{
+.space_div {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
@@ -492,13 +484,12 @@ button:hover {
 
 @keyframes moveLogo {
   0% {
-      transform: translateX(0);
+    transform: translateX(0);
   }
   100% {
-      transform: translateX(20px);
+    transform: translateX(20px);
   }
 }
-
 
 /* Responsive styles */
 @media only screen and (max-width: 600px) {
@@ -521,7 +512,6 @@ button:hover {
   }
 }
 
-
 @media screen and (max-width: 701px) {
   body {
     max-width: 1080px;
@@ -535,12 +525,12 @@ button:hover {
     grid-template-columns: 150px auto 15%;
   }
 
-  .pueblos_magicos{
+  .pueblos_magicos {
     width: 100%;
     height: 150px;
   }
-  
-  .playas_mexico{
+
+  .playas_mexico {
     width: 100%;
     height: 170px;
   }
@@ -552,8 +542,6 @@ button:hover {
   .destination-card {
     flex: 0 1 calc(100% - 20px); /* Full width on smaller screens */
   }
-
-
 }
 
 footer {

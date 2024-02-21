@@ -8,7 +8,6 @@ const element = document.querySelector(".product-list");
 const placesList = new PlacesList(category, dataSource, element);
 placesList.init();
 
-
 loadHeaderFooter(
   "header",
   "footer",
