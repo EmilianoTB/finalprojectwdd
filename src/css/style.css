@@ -163,6 +163,15 @@ button:hover {
   margin: 0 10px; /* Adjust as needed */
 }
 
+.category_card img {
+  transition: transform 0.3s;
+}
+
+.category_card:hover img {
+  transform: scale(1.1);
+}
+
+
 .pueblos_magicos{
   width: 100%;
   height: 200px;
@@ -411,8 +420,106 @@ button:hover {
   color: #007bff;
 }
 
+/*card index.html*/
+.dest_card {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 20px;
+  max-width: 350px;
+  width: 100%;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.dest_card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.dest_card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.c_name {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.destination-c_description {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.destination-c_activities {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.destination-c_website {
+  font-size: 14px;
+  color: #007aff;
+  text-decoration: none;
+}
+
+.c_button {
+  background-color: #007aff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.space_div{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header_position .logo {
+  position: relative;
+  animation: moveLogo 2s infinite alternate;
+}
+
+@keyframes moveLogo {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(20px);
+  }
+}
 
 
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+  .dest_card {
+    margin: 10px;
+    padding: 15px;
+  }
+
+  .c_name {
+    font-size: 16px;
+  }
+
+  .destination-c_description,
+  .destination-c_activities {
+    font-size: 12px;
+  }
+
+  .c_button {
+    padding: 8px 16px;
+  }
+}
 
 
 @media screen and (max-width: 701px) {

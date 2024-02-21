@@ -1,14 +1,14 @@
 import { renderListWithTemplate, renderWithTemplate } from "./utils.mjs";
 
+
 /**
- * @param {string} - Which category of product
- * @param {ExternalServices} dataSource - Handles fetching data
- * @param {Element} listElement - Target html element to render products in
+ * @param {string}
+ * @param {ExternalServices} dataSource 
+ * @param {Element} listElement 
  */
 
 
-export default class ProductList {
-    // Requires product category, datasource, and HTML element to render in
+export default class PlacesList {
     constructor(category, dataSource, listElement) {
         this.category = category;
         this.dataSource = dataSource;
@@ -17,7 +17,7 @@ export default class ProductList {
 
     
 
-    // Populate list of products
+    // Populate list of locations
     async init() {
       var path = window.location.pathname;
       var parts = path.split('/');
@@ -28,28 +28,27 @@ export default class ProductList {
           jsonKey = 'playasmexico';
       } else if (filename === 'pueblosmagicos.html') {
           jsonKey = 'pueblosmagicos';
-      } 
+      } else if (filename == "search.html"){
+        jsonKey;
+      }
       const json = await this.dataSource.getData(jsonKey);
       const locations = json[jsonKey];
       this.renderList(locations);
 
-      document.getElementById("listing_title").innerHTML = `Top Products: ${this.category}`;
-
-
-        /*const filteredProducts = this.filterByDenylist(products);
-        this.renderList(filteredProducts);*/
     }
 
-    // Render HTML for each product
+  
     renderList(locations) {
         renderWithTemplate(productCardTemplate, this.listElement, locations);
     }
+
+    
 }
+
 
 function productCardTemplate(locations) {
   return locations.map(location => `
     <li class="destination-card">
-      <a href="/destination_pages/?destination=${location.name}">
         <img
           src="${location.image_url}"
           alt="${location.name}"
@@ -63,4 +62,6 @@ function productCardTemplate(locations) {
     </li>
   `).join('');
 }
+
+
 

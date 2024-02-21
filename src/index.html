@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sleep Outside | Home</title>
+    <title>WHERE TO GO?</title>
     <link rel="stylesheet" href="/css/style.css" />
     <script src="/js/main.js" type="module"></script>
+    
   </head>
   <body>
     <header class="divider" id="header"></header>
@@ -18,12 +19,10 @@
           alt="image of a high mountain lake"
         />
         <div class="logo logo--square">
-          <form action="">
+          <form id="searchForm" action="">
             <label for="searchType">Search by:</label>
             <select id="searchType" name="searchType">
                 <option value="name">Name</option>
-                <option value="temperature">Temperature</option>
-                <option value="userRate">User Rate</option>
                 <option value="random">Random Selection</option>
             </select>
             <br>
@@ -33,6 +32,7 @@
           </form>
         </div>
       </div>
+      <div id="result"></div>
       <div class="categories">
           <div class="category_card">
             <a href="/pages/pueblosmagicos.html">
