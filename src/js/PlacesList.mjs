@@ -19,14 +19,13 @@ export default class PlacesList {
 
     // Populate list of locations
     async init() {
-      var path = window.location.pathname;
-      var parts = path.split("/");
-      var filename = parts[parts.length - 1];
-
+      const title = document.getElementById('getId');
+      const titleId = title.textContent.trim(); // Get the text content of the title tag and remove any leading or trailing whitespace
+  
       let jsonKey;
-      if (filename === "beachesmexico.html") {
+      if (titleId === "BeachesMexico") {
           jsonKey = "playasmexico";
-      } else if (filename === "pueblosmagicos.html") {
+      } else if (titleId === "PueblosMagicos") {
           jsonKey = "pueblosmagicos";
       } else if (filename == "search.html"){
         jsonKey;
