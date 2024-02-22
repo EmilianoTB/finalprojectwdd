@@ -18,13 +18,13 @@ async function fetchData() {
     if (searchType === "random") {
       const value = randomSelection(json);
       templateSelection(value, key, apiKey);
-      console.log("Search Type:", searchType);
+
     } else if (searchType === "name") {
       const value = nameSelection(json, searchValue);
       templateSelection(value, key, apiKey);
-      console.log("Search Type:", searchType);
+
     } else if (searchType === "temperature") {
-      console.log("Search Type:", searchType);
+
     }
 
     
@@ -98,8 +98,6 @@ function getLocation(callback) {
     navigator.geolocation.getCurrentPosition(function(position) {
       const latitude = position.coords.latitude;
       const longitude = position.coords.longitude;
-      console.log("Latitude:", latitude);
-      console.log("Longitude:", longitude);
       callback(latitude, longitude);    
       }, function(error){
         console.error("Error getting geolocation:", error);
@@ -132,12 +130,8 @@ function saveLocation(latitude, longitude, latstorage, longstorage) {
   var latstorage = localStorage.getItem("lat");
   var longstorage = localStorage.getItem("long");
 
-
-  console.log("Location saved - Latitude:", savedLatitude, "Longitude:", savedLongitude, "Target Latitude:", latstorage, "Target Longitude:", longstorage);
-
   // Calculate the distance
   const distance = calculateDistance(savedLatitude, savedLongitude, latstorage, longstorage); 
-  console.log("Distance to the place:", distance.toFixed(2), "km");
   setTimeout(function() {
     alert("Distance to the place: " + distance.toFixed(2) + " km");
   },  1000);
