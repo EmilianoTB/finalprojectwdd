@@ -26,6 +26,8 @@ async function fetchData() {
     } else if (searchType === "temperature") {
       console.log("Search Type:", searchType);
     }
+
+    
   });
 }
 
@@ -44,6 +46,12 @@ function nameSelection(json, searchValue) {
 function templateSelection(result, key, apiKey) {
   const lat = result.lat;
   const long = result.long;
+
+  localStorage.setItem("lat",lat);
+  localStorage.setItem("long",long);
+  getLocation(saveLocation, lat, long);
+  
+
 
   key
     .getWeather(lat, long, apiKey)
@@ -84,6 +92,59 @@ function templateSelection(result, key, apiKey) {
       console.error(error);
     });
 }
+
+function getLocation(callback) {
+  if ("geolocation" in navigator) {
+    navigator.geolocation.getCurrentPosition(function(position) {
+      const latitude = position.coords.latitude;
+      const longitude = position.coords.longitude;
+      console.log("Latitude:", latitude);
+      console.log("Longitude:", longitude);
+      callback(latitude, longitude);    
+      }, function(error){
+        console.error("Error getting geolocation:", error);
+      });
+  } else {
+    console.log("Geolocation is not available.");
+  }
+}
+
+function calculateDistance(lat1, lon1, lat2, lon2) {
+    const R = 6371; // Radius of the Earth in km
+    const dLat = (lat2 - lat1) * (Math.PI / 180);  // Convert degrees to radians
+    const dLon = (lon2 - lon1) * (Math.PI / 180);
+    const a =
+        Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+        Math.cos(lat1 * (Math.PI / 180)) * Math.cos(lat2 * (Math.PI / 180)) *
+        Math.sin(dLon / 2) * Math.sin(dLon / 2);
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    const distance = R * c; // Distance in km
+    return distance;
+}
+
+let savedLatitude;
+let savedLongitude;
+
+
+function saveLocation(latitude, longitude, latstorage, longstorage) {
+  savedLatitude = latitude;
+  savedLongitude = longitude;
+  var latstorage = localStorage.getItem("lat");
+  var longstorage = localStorage.getItem("long");
+
+
+  console.log("Location saved - Latitude:", savedLatitude, "Longitude:", savedLongitude, "Target Latitude:", latstorage, "Target Longitude:", longstorage);
+
+  // Calculate the distance
+  const distance = calculateDistance(savedLatitude, savedLongitude, latstorage, longstorage); 
+  console.log("Distance to the place:", distance.toFixed(2), "km");
+  setTimeout(function() {
+    alert("Distance to the place: " + distance.toFixed(2) + " km");
+  },  1000);
+  
+}
+
+
 
 fetchData();
 
